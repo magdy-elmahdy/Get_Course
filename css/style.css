@@ -1,0 +1,282 @@
+body{
+    margin:0;
+    font-family: "Alegreya Sans";
+
+}
+.container{
+    width:89%;
+    overflow:auto;
+    margin:auto;
+}
+.header{
+    background-image: url(../images/1.jpg);
+    background-size:100% 100%;
+    height:100vh;
+}
+
+.header .container img{
+    float:left;
+    height:48px;
+    width:auto;
+    padding-top: 20px;
+}
+
+.header .nav{
+    color:#fff;
+    font-size: 20px;;
+}
+.header .nav ul{
+    list-style: none;
+    overflow: auto;
+    float:right;
+}
+.header .nav ul li{
+    float:left;
+    padding:10px;
+}
+
+
+.header .screen{
+    text-align: center;
+    color:#FFFFFF;
+    padding-top: 120px;
+}
+
+
+.header .screen h1{
+    font-family: "Alegreya";
+    margin-bottom: 20px;
+    font-weight:400;
+    font-size: 75px;
+    margin-top: 5px;  
+}
+.header .screen p{
+    font-size: 24px;
+    line-height: 1.86em;
+    font-weight:550;
+    margin-bottom: 18px;
+    font-family:"Alegreya Sans";
+}
+.header .screen .g{
+    margin-bottom: 5px;
+}    
+
+.header .screen .btn{
+    font-size: 16px;
+    padding:15px 28px;
+    color:#fff;
+    border-radius:3px;
+    margin-top: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.header .screen  .btn-1{
+    background-color:#8e7754;;
+    border:solid 2px transparent;
+    margin-right:5px;
+
+
+}
+.header .screen .btn-2{
+    background-color:transparent ;
+    border:solid 2px #fff;
+    margin-left:5px;
+}
+
+
+.about{
+    padding-top:80px;
+    margin-bottom: 30px;
+}
+.container .photo{
+    width: 40%;
+    float:left;
+}
+.container .photo img{
+    width:100%;
+}
+.container .about-us{
+    width:60%;
+    float:left;
+}
+.about-us .info{
+    margin:20px 60px ;
+}
+.about-us .info h2{
+    font-family: "Alegreya";
+    color: #303030;
+    margin-bottom:25px;
+}
+.about-us .info p{
+    font-family: "Alegreya Sans";
+    font-size: 17;
+    line-height:1.86em;
+    color: #686868;
+}
+.about-us .hoppies{
+    margin-top:40px;
+    font-size: 17;
+    line-height:1.86em;
+    color: #686868;
+}
+.hoppies .content{
+    overflow: hidden;
+}
+.hoppies .content .icon{
+    float:left;
+    width:5%;
+    margin:3% 2% 0 0;
+}
+.hoppies .content .icon img{
+    width:100%;
+
+}
+.hoppies .content .text{
+    float:left;
+    width:93%;
+}
+/*Start Location*/
+.location{
+    background-color:#F8F8F8;
+    padding:80px 0;
+}
+.location .start{
+    float:left;
+    width:51%;
+    padding-top: 100px;
+    font-size: 18px;
+    line-height: 1.85em;
+    box-sizing: border-box;
+}
+.location .start p{
+    color: #686868;
+}
+
+.location .end{
+    float:right;
+    width:49%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.location .end img{
+    width:100%;
+
+}
+/*start baking*/
+.baking .container {
+    margin-bottom:30px;
+}
+.baking .container .bar{
+    text-align: center;
+    padding: 60px 0;
+    font-size: 18;
+}
+.baking .container .bar p{
+    color:#686868;
+}
+.baking .container .repas{
+    overflow:auto;
+    text-align: center;
+    line-height: 1.83em;
+    font-size: 18;
+}
+.baking .container .repas .food{
+    width:33.3%;
+    float:left;
+    padding:1.5%;/**/
+    box-sizing: border-box;/*لازم استعملها هنا لما اعمل border وهعدي المساحه المحدده*/
+}
+.baking .container .repas .food img{
+    width:100%;
+}
+
+.baking .container .repas .food p{
+    color:#686868;
+}
+
+/*End baking*/
+
+/*Start where*/
+.where {
+    color:#686868;
+    background-color: #F8F8F8;
+    padding:80px 0;
+}
+.where .container .contact{
+    width:50%;
+    float:left;
+}
+.where .container .contact .info{
+   overflow: auto;
+   margin: 6% 0 6% 0;
+}
+.where .container .contact .info .icon{
+    width:5%;
+    float:left;
+    margin: 0 3% 0 0;
+}
+.where .container .contact .info .icon img{
+    width:100%;
+}
+.where .container .contact .info .icon{
+    float:left;
+}
+.where .container .map{
+    float:right;
+    width:47%;
+}
+/* .where .container .map img{
+    width:100%;
+} */
+/*End where*/
+
+/*Start total*/
+.total {
+    padding:30px 0 ; 
+    background-color: #403D38;
+
+    color:#fff;
+}
+.total .container{
+    background-image: url(../images/details.png);
+    background-repeat: no-repeat;
+    background-position:right center;
+}
+.total .container .section {
+    box-sizing: border-box;;
+    padding:0.5%;
+    width:25%;
+    float:left;
+}
+.total .container .section ul{
+    list-style: none;
+    padding-left: 0%;
+}
+.total .container .section ul li{
+    display: list-item;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    color:#969696;
+    line-height: 1.83em;
+    font-size: 17px;
+    padding: 10px 0;
+}
+.total .container .section p{
+    color:#969696;
+    line-height: 1.83em;
+    font-size: 17px;
+}
+/*End total*/
+.end{
+    background-color: #353330;
+    text-align: center;
+    font-size:16px;
+    padding: 50px 0;
+    color: #969696;
+}
+
+.end a img{
+    width:3%;
+    margin:0% 0.10% ;
+}
